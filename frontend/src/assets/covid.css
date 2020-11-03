@@ -1,0 +1,41 @@
+/*hairs location*/
+[class*="hair"]{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -4px;
+&::before{
+    content: "";
+    display: block;
+    width: 16px;
+    margin-left: -8px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+  }
+&::after{
+      content: "";
+      display: block;
+      position: absolute;
+      left:50%;
+      transform: translateX(-50%);
+      width: 4px;
+      margin-left: -4px;
+      height: 20px;
+      background-color: #000;
+    }
+}
+
+.hair1 {transform: rotateZ(30deg) translateY(-65px);}
+.hair2 {transform: rotateZ(60deg) translateY(-65px);}
+.hair3 {transform: rotateZ(90deg) translateY(-65px);}
+.hair4 {transform: rotateZ(120deg) translateY(-65px);}
+.hair5 {transform: rotateZ(150deg) translateY(-65px);}
+.hair6 {transform: rotateZ(180deg) translateY(-65px);}
+.hair7 {transform: rotateZ(210deg) translateY(-65px);}
+.hair8 {transform: rotateZ(240deg) translateY(-65px);}
+.hair9 {transform: rotateZ(270deg) translateY(-65px);}
+.hair10{transform: rotateZ(300deg) translateY(-65px);}
+.hair11{transform: rotateZ(330deg) translateY(-65px);}
+.hair12{transform: rotateZ(360deg) translateY(-65px);}
