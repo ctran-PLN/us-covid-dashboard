@@ -70,7 +70,7 @@ http://localhost:3000
 
 ![RAD-scheduler](img/RAD-scheduler.png)
 
-Go to http://localhost:8080 It will direct you to Apache Airflow scheduler. Toggle both allStates-daily and usa-daily to ON. I will bring data to the postgres db.
+Go to http://localhost:8080 It will direct you to Apache Airflow scheduler. Toggle both allStates-COVID-daily and USA-covid-daily to ON. I will bring data to the postgres db.
 
 ### Apache Airflow as scheduler
 
