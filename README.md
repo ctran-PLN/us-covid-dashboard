@@ -6,6 +6,8 @@ This is my demo which utilizes microservices components to process and display C
 
 In this demo, I attempt to put together 3 big technology stacks to build this Realtime Web-application. The 3 tech stacks are Airflow, Django and ReactJs.
 
+![RAD-demo](img/RAD-demo.gif)
+
 ### Architecture Diagram
 
 ![RAD-diagram](img/RAD-diagram.png)
